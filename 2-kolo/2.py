@@ -1,5 +1,8 @@
-num_of_input_lines = 5
+num_of_input_lines = 4
+x = []
 
 for i in range(num_of_input_lines):
-	x =input()
-	print(x)
+	x.append(input()) 
+
+for neki in x:
+	print(neki)
